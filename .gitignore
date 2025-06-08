@@ -41,6 +41,8 @@ terraform.rc
 !terraform.tfvars.example
 !terraform.tfvars
 .terraform.lock.hcl
+
+# Other
 .env
 *.pem
 .DS_Store
