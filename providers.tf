@@ -9,8 +9,8 @@ terraform {
 
 provider "github" {
   app_auth {
-    id              = env.GITHUB_APP_ID
-    installation_id = env.GITHUB_APP_INSTALLATION_ID
-    pem_file        = env.GITHUB_APP_PEM_FILE
+    id              = data.external.env.result["GITHUB_APP_ID"]
+    installation_id = data.external.env.result["GITHUB_APP_INSTALLATION_ID"]
+    pem_file        = data.external.env.result["GITHUB_APP_PEM_FILE"]
   }
 }
