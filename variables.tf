@@ -14,3 +14,18 @@ variable "repository_visibility" {
   type        = string
   default     = "private"
 }
+
+variable "github_app_id" {
+  description = "ID of the GitHub App"
+  type        = string
+}
+
+variable "github_app_installation_id" {
+  description = "Installation ID of the GitHub App"
+  type        = string
+}
+
+variable "github_app_pem_file" {
+  description = "PEM file of the GitHub App"
+  type        = string
+}
