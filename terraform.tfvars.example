@@ -1,0 +1,3 @@
+repository_name           = "example-repo"
+repository_description    = "An example repository managed by Terraform"
+repository_visibility     = "private" 
