@@ -9,5 +9,5 @@ terraform {
 
 provider "github" {
   owner = "seanparhamtaylor"
-  app_auth {}
+  # app_auth {}
 }
