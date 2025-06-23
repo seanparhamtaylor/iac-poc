@@ -3,5 +3,5 @@ resource "github_repository" "example" {
   description = var.repository_description
   visibility  = var.repository_visibility
 
-  auto_init = trueDERP
+  auto_init = true
 }
