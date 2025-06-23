@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "github" {
+  owner = "seanparhamtaylor"
   app_auth {}
 }
